@@ -15,15 +15,18 @@ export default {
 </script>
 
 <template>
-  <body>
-    <comicsHeader />
-    <comicsMain />
-    <comicsFooter />
-  </body>
+  <comicsHeader />
+  <comicsMain />
+  <comicsFooter />
 </template>
 
 <style >
 body {
+  height: 100vh;
+  width: 100vw;
+}
+
+#app {
   height: 100vh;
   width: 100vw;
 }

@@ -78,6 +78,8 @@ img {
 
 .comics-bg-blue {
     background-color: rgb(15, 124, 197);
+    position: relative;
+    z-index: 7;
 }
 
 .title-comics {

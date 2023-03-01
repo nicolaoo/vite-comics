@@ -48,6 +48,9 @@ export default {
                         <li>lorem</li>
                         <li>lorem</li>
                     </div>
+                    <figure>
+                        <img class="logo-dc-big" src="vue-dc-comics-1/img/dc-logo-bg.png" alt="">
+                    </figure>
                 </div>
             </div>
         </div>
@@ -100,6 +103,20 @@ img {
 }
 
 /* REGOLE FOOTER  */
+
+.foot-size,
+.foot-social {
+    z-index: 5;
+    position: relative;
+}
+
+.logo-dc-big {
+    position: absolute;
+    right: 100px;
+    z-index: 0;
+    width: 360px;
+    bottom: -50px;
+}
 
 .foot-size {
     background-image: url("vue-dc-comics-1/img/footer-bg.jpg");
@@ -158,7 +175,7 @@ img {
 }
 
 .icon-social h4 {
-    font-size: 12px;
+    font-size: 15px;
     text-transform: uppercase;
     padding: 10px;
     background-color: rgb(63, 63, 63);
