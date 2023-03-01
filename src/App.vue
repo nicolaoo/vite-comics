@@ -15,9 +15,11 @@ export default {
 </script>
 
 <template>
-  <comicsHeader />
-  <comicsMain />
-  <comicsFooter />
+  <body>
+    <comicsHeader />
+    <comicsMain />
+    <comicsFooter />
+  </body>
 </template>
 
 <style >
