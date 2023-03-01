@@ -23,11 +23,28 @@ export default {
 <style >
 body {
   height: 100vh;
-  width: 100vw;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
-#app {
-  height: 100vh;
-  width: 100vw;
+.container {
+  margin: 0 auto;
+  max-width: 900px;
+
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
 }
 </style>

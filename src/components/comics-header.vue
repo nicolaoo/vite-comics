@@ -56,12 +56,6 @@ export default {
 
 }
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
 .item-nav {
     padding: 0 10px;
     color: rgb(63, 63, 63);
@@ -100,13 +94,5 @@ export default {
     position: absolute;
     bottom: 0;
 
-}
-
-ul {
-    list-style-type: none;
-}
-
-img {
-    max-width: 100%;
 }
 </style>

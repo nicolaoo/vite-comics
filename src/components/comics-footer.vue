@@ -79,31 +79,6 @@ export default {
 </template>
 
 <style >
-.container {
-    margin: 0 auto;
-    max-width: 900px;
-
-}
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-
-ul,
-li {
-    list-style-type: none;
-
-}
-
-img {
-    max-width: 100%;
-}
-
-/* REGOLE FOOTER  */
-
 .foot-size,
 .foot-social {
     z-index: 5;

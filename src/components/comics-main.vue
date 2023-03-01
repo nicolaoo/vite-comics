@@ -49,29 +49,6 @@ export default {
 </template>
 
 <style >
-.container {
-    margin: 0 auto;
-    max-width: 900px;
-
-}
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-
-ul {
-    list-style-type: none;
-}
-
-img {
-    max-width: 100%;
-}
-
-/* REGOLE MAIN  */
-
 .comics-bg-black {
     background-color: black;
 }
