@@ -15,7 +15,7 @@ export default {
         <div class="container">
             <div class="head-section">
                 <a href="#">
-                    <img class="logo" src="vue-dc-comics-1/img/favicon.ico" alt="">
+                    <img class="logo" src="vue-dc-comics-1/img/dc-logo.png" alt="">
                 </a>
                 <ul class="nav">
                     <li class="item-nav active">characters</li>
@@ -39,10 +39,14 @@ export default {
     position: relative;
 }
 
+.logo {
+    max-width: 60px;
+}
+
 .head-section {
     display: flex;
     justify-content: space-between;
-    padding: 20px 0;
+    padding: 10px 0;
     align-items: center;
 
 }
