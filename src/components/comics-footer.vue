@@ -17,36 +17,36 @@ export default {
                 <div class="link-site">
                     <div class="links comics-shop">
                         <h4 class="title-link-site">dc comics</h4>
-                        <li>lorem</li>
-                        <li>lorem</li>
-                        <li>lorem</li>
-                        <li>lorem</li>
-                        <li>lorem</li>
-                        <li>lorem</li>
-                        <li>lorem</li>
+                        <li>characters</li>
+                        <li>comics</li>
+                        <li>movies</li>
+                        <li>tv</li>
+                        <li>games</li>
+                        <li>collectibles</li>
+                        <li>videos</li>
 
                         <h4 class="title-link-site">shop</h4>
-                        <li>lorem</li>
-                        <li>lorem</li>
+                        <li>fans</li>
+                        <li>news</li>
                     </div>
                     <div class="links dc">
                         <h4 class="title-link-site">dc</h4>
-                        <li>lorem</li>
-                        <li>lorem</li>
-                        <li>lorem</li>
-                        <li>lorem</li>
-                        <li>lorem</li>
-                        <li>lorem</li>
-                        <li>lorem</li>
-                        <li>lorem</li>
+                        <li>shop</li>
+                        <li>news</li>
+                        <li>fans</li>
+                        <li>videos</li>
+                        <li>collectibles</li>
+                        <li>games</li>
+                        <li>tv</li>
+                        <li>movies</li>
                     </div>
                     <div class="links sites">
                         <h4 class="title-link-site">sites</h4>
-                        <li>lorem</li>
-                        <li>lorem</li>
-                        <li>lorem</li>
-                        <li>lorem</li>
-                        <li>lorem</li>
+                        <li>DC</li>
+                        <li>MAD Magazine</li>
+                        <li>DC Kids</li>
+                        <li>DC Universe</li>
+                        <li>DC Poer Visa</li>
                     </div>
                     <figure>
                         <img class="logo-dc-big" src="vue-dc-comics-1/img/dc-logo-bg.png" alt="">
@@ -142,8 +142,9 @@ img {
 }
 
 .links li {
-    color: white;
-    font-size: 10px;
+    color: #ffffff;
+    opacity: 0.5;
+    font-size: 12px;
     padding: 2px 0;
 }
 
