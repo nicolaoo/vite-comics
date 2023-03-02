@@ -1,4 +1,5 @@
 <script >
+import vignette from "./cicolo-for-vignette.vue"
 export default {
     data() {
         return {
@@ -77,6 +78,9 @@ export default {
                 }
             ],
         }
+    },
+    components: {
+        vignette
     }
 }
 </script>
@@ -89,14 +93,7 @@ export default {
         <div class="comics-bg-black">
             <div class="container">
                 <div class="grid">
-                    <div v-for="(el, i) in heroCard" :key="i" class="card">
-                        <figure>
-                            <img :src="el.thumb" alt="">
-                        </figure>
-                        <p>
-                            {{ el.series }}
-                        </p>
-                    </div>
+                    <vignette v-for="(el, i) in heroCard" :key="i" :src="el.thumb" :text="el.series" />
                 </div>
             </div>
         </div>
@@ -146,13 +143,7 @@ export default {
     z-index: 7;
 }
 
-.card {
-    p {
-        color: white;
-        text-transform: uppercase;
-        font-size: 10px;
-    }
-}
+
 
 .grid {
     display: grid;
