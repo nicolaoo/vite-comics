@@ -89,8 +89,8 @@ export default {
     position: absolute;
     right: 100px;
     z-index: 0;
-    width: 360px;
-    bottom: -50px;
+    width: 400px;
+    bottom: -45px;
 }
 
 .foot-size {

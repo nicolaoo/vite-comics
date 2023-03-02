@@ -21,6 +21,10 @@ export default {
 </template>
 
 <style lang="scss">
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
 body {
   height: 100vh;
   overflow-y: auto;
