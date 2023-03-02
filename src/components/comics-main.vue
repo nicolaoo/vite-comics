@@ -91,7 +91,7 @@ export default {
                 <div class="grid">
                     <div v-for="(el, i) in heroCard" :key="i" class="card">
                         <figure>
-                            <img src="https://picsum.photos/200/300" alt="">
+                            <img :src="el.thumb" alt="">
                         </figure>
                         <p>
                             {{ el.series }}
