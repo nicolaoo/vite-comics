@@ -40,7 +40,8 @@ body {
 }
 
 
-ul {
+ul,
+li {
   list-style-type: none;
 }
 

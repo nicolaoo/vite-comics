@@ -54,35 +54,10 @@ export default {
 .nav {
     display: flex;
 
-}
-
-.item-nav {
-    padding: 0 10px;
-    color: rgb(63, 63, 63);
-    text-transform: uppercase;
-    font-size: 12px;
-    font-weight: 600;
-
-    :hover {
-        color: rgb(15, 124, 197);
-    }
-
-    :hover::after {
-        opacity: 0.9;
-        color: rgb(15, 124, 197);
-        content: '';
-        display: block;
-        width: 40px;
-        height: 5px;
-        background-color: rgb(15, 124, 197);
-        position: absolute;
-        bottom: 0;
-    }
-
     .active {
         color: rgb(15, 124, 197);
 
-        ::after {
+        &::after {
             content: '';
             display: block;
             width: 40px;
@@ -92,6 +67,33 @@ export default {
             position: absolute;
             bottom: 0;
 
+        }
+
+
+    }
+
+}
+
+.item-nav {
+    padding: 0 10px;
+    color: rgb(63, 63, 63);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+
+    &:hover {
+        color: rgb(15, 124, 197);
+
+        &::after {
+            opacity: 0.9;
+            color: rgb(15, 124, 197);
+            content: '';
+            display: block;
+            width: 40px;
+            height: 5px;
+            background-color: rgb(15, 124, 197);
+            position: absolute;
+            bottom: 0;
         }
     }
 }
