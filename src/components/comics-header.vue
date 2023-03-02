@@ -34,7 +34,7 @@ export default {
     </div>
 </template>
 
-<style>
+<style lang="scss">
 .header {
     position: relative;
 }
@@ -62,37 +62,37 @@ export default {
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 600;
-}
 
-.item-nav:hover {
-    color: rgb(15, 124, 197);
-}
+    :hover {
+        color: rgb(15, 124, 197);
+    }
 
-.item-nav:hover::after {
-    opacity: 0.9;
-    color: rgb(15, 124, 197);
-    content: '';
-    display: block;
-    width: 40px;
-    height: 5px;
-    background-color: rgb(15, 124, 197);
-    position: absolute;
-    bottom: 0;
-}
+    :hover::after {
+        opacity: 0.9;
+        color: rgb(15, 124, 197);
+        content: '';
+        display: block;
+        width: 40px;
+        height: 5px;
+        background-color: rgb(15, 124, 197);
+        position: absolute;
+        bottom: 0;
+    }
 
-.item-nav.active {
-    color: rgb(15, 124, 197);
-}
+    .active {
+        color: rgb(15, 124, 197);
 
-.active::after {
-    content: '';
-    display: block;
-    width: 40px;
-    height: 5px;
-    color: rgb(15, 124, 197);
-    background-color: rgb(15, 124, 197);
-    position: absolute;
-    bottom: 0;
+        ::after {
+            content: '';
+            display: block;
+            width: 40px;
+            height: 5px;
+            color: rgb(15, 124, 197);
+            background-color: rgb(15, 124, 197);
+            position: absolute;
+            bottom: 0;
 
+        }
+    }
 }
 </style>

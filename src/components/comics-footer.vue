@@ -78,7 +78,7 @@ export default {
     </footer>
 </template>
 
-<style >
+<style lang="scss">
 .foot-size,
 .foot-social {
     z-index: 5;
@@ -138,6 +138,19 @@ export default {
 .icon-social {
     gap: 20px;
     align-items: center;
+
+    h4 {
+        font-size: 15px;
+        text-transform: uppercase;
+        padding: 10px;
+        background-color: rgb(63, 63, 63);
+        color: rgb(15, 124, 197);
+        font-weight: 700;
+    }
+
+    .social {
+        gap: 20px;
+    }
 }
 
 .btn-sign {
@@ -148,18 +161,5 @@ export default {
     background-color: rgb(63, 63, 63);
     color: white;
     font-weight: 600;
-}
-
-.icon-social h4 {
-    font-size: 15px;
-    text-transform: uppercase;
-    padding: 10px;
-    background-color: rgb(63, 63, 63);
-    color: rgb(15, 124, 197);
-    font-weight: 700;
-}
-
-.social {
-    gap: 20px;
 }
 </style>

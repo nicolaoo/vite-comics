@@ -48,7 +48,7 @@ export default {
     </main>
 </template>
 
-<style >
+<style lang="scss">
 .comics-bg-black {
     background-color: black;
 }
@@ -70,23 +70,23 @@ export default {
     align-items: center;
     padding: 30px 20px;
     color: white;
-}
 
-.reidirector .col {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
+    .col {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
 
-}
+        img {
+            width: 30px;
 
-.col img {
-    width: 30px;
-}
+        }
 
-.col h4 {
-    text-align: start;
-    text-transform: uppercase;
-    font-size: 10px;
+        h4 {
+            text-align: start;
+            text-transform: uppercase;
+            font-size: 10px;
+        }
+    }
 }
 </style>
