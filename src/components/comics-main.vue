@@ -2,7 +2,14 @@
 export default {
     data() {
         return {
-
+            heroCard: [
+                {
+                    "thumb": "https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/AC1000_DLX_162-001_HD_5ba13723281ab0.37845353.jpg?itok=ZsI-C5eX",
+                    "price": "$19.99",
+                    "series": "Action Comics",
+                    "type": "comic book"
+                }
+            ],
         }
     }
 }
@@ -15,10 +22,104 @@ export default {
         </figure>
         <div class="comics-bg-black">
             <div class="container">
-                <div>
-                    <h2 class="title-comics">
-                        --> content goes here
-                    </h2>
+                <div class="grid">
+                    <div class="card">
+                        <figure>
+                            <img src="https://picsum.photos/200/300" alt="">
+                        </figure>
+                        <p>
+                            Action Comics
+                        </p>
+                    </div>
+                    <div class="card">
+                        <figure>
+                            <img src="https://picsum.photos/200/300" alt="">
+                        </figure>
+                        <p>
+                            Action Comics
+                        </p>
+                    </div>
+                    <div class="card">
+                        <figure>
+                            <img src="https://picsum.photos/200/300" alt="">
+                        </figure>
+                        <p>
+                            Action Comics
+                        </p>
+                    </div>
+                    <div class="card">
+                        <figure>
+                            <img src="https://picsum.photos/200/300" alt="">
+                        </figure>
+                        <p>
+                            Action Comics
+                        </p>
+                    </div>
+                    <div class="card">
+                        <figure>
+                            <img src="https://picsum.photos/200/300" alt="">
+                        </figure>
+                        <p>
+                            Action Comics
+                        </p>
+                    </div>
+                    <div class="card">
+                        <figure>
+                            <img src="https://picsum.photos/200/300" alt="">
+                        </figure>
+                        <p>
+                            Action Comics
+                        </p>
+                    </div>
+                    <div class="card">
+                        <figure>
+                            <img src="https://picsum.photos/200/300" alt="">
+                        </figure>
+                        <p>
+                            Action Comics
+                        </p>
+                    </div>
+                    <div class="card">
+                        <figure>
+                            <img src="https://picsum.photos/200/300" alt="">
+                        </figure>
+                        <p>
+                            Action Comics
+                        </p>
+                    </div>
+                    <div class="card">
+                        <figure>
+                            <img src="https://picsum.photos/200/300" alt="">
+                        </figure>
+                        <p>
+                            Action Comics
+                        </p>
+                    </div>
+                    <div class="card">
+                        <figure>
+                            <img src="https://picsum.photos/200/300" alt="">
+                        </figure>
+                        <p>
+                            Action Comics
+                        </p>
+                    </div>
+                    <div class="card">
+                        <figure>
+                            <img src="https://picsum.photos/200/300" alt="">
+                        </figure>
+                        <p>
+                            Action Comics
+                        </p>
+                    </div>
+                    <div class="card">
+                        <figure>
+                            <img src="https://picsum.photos/200/300" alt="">
+                        </figure>
+                        <p>
+                            Action Comics
+                        </p>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -68,9 +169,19 @@ export default {
     z-index: 7;
 }
 
-.title-comics {
-    color: white;
-    padding: 30px 0;
+.card {
+    p {
+        color: white;
+        text-transform: uppercase;
+        font-size: 10px;
+    }
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 10px;
+    padding: 20px 0;
 }
 
 .reidirector {
