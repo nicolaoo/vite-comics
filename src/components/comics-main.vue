@@ -5,73 +5,73 @@ export default {
         return {
             heroCard: [
                 {
-                    "thumb": "https://picsum.photos/200/300",
+                    "thumb": "https://www.freekomix.it/wp-content/uploads/2023/01/SUPERMAN-ACTION-COMICS-2.jpg",
                     "price": "$19.99",
                     "series": "Action Comics",
                     "type": "comic book"
                 },
                 {
-                    "thumb": "https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2020/09/AV1976_01_300-001_HD_5f738f6e39ddd7.18205602.jpg?itok=VgdYdJ01",
+                    "thumb": "https://www.panini.it/media/catalog/product/cache/a5b5dd3adfe0d321084804c738f29601/M/1/M1BLLA015ISBN_0.jpg",
                     "price": "$3.99",
                     "series": "American Vampire 1976",
                     "type": "comic book"
                 },
                 {
-                    "thumb": "https://www.dccomics.com/sites/default/files/styles/covers192x291/public/gn-covers/2018/08/AQMv4_UW_153-001_HD_5b7efa1745a9b8.08589135.jpg?itok=HPTtnrsb",
+                    "thumb": "https://mlpnk72yciwc.i.optimole.com/cqhiHLc.IIZS~2ef73/w:auto/h:auto/q:75/https://bleedingcool.com/wp-content/uploads/2021/05/AQM_80THANN_Cv11_60a2d6ea2f7545.69069474-1.jpg",
                     "price": "$16.99",
                     "series": "Aquaman",
                     "type": "graphic novel"
                 },
                 {
-                    "thumb": "https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/06/batgirl_v5_1_5b23e1f1124941.50950783.jpg?itok=VnrJah76",
+                    "thumb": "https://i0.wp.com/www.lideachetimanca.com/wp-content/uploads/2020/07/5050574343640.jpg?resize=300%2C460&ssl=1",
                     "price": "$2.99",
                     "series": "Batgirl",
                     "type": "comic book"
                 },
                 {
-                    "thumb": "https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/BM_56_300-001_HD_5ba137a85c3bf3.33122291.jpg?itok=3FHJQYJZ",
+                    "thumb": "https://www.panini.it/media/catalog/product/cache/a5b5dd3adfe0d321084804c738f29601/m/1/m1batm001_0_yrafgywzsh7c1i8l.jpg",
                     "price": "$3.99",
                     "series": "Batman",
                     "type": "comic book"
                 },
                 {
-                    "thumb": "https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/BM_56_300-001_HD_5ba137a85c3bf3.33122291.jpg?itok=3FHJQYJZ",
+                    "thumb": "https://upload.wikimedia.org/wikipedia/it/8/8d/Batman_beyond_1-195x300.jpg",
                     "price": "$2.99",
                     "series": "Batman Beyond",
                     "type": "comic book"
                 },
                 {
-                    "thumb": "https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2019/08/BMSM_5d4361b7116261.74371456.jpg?itok=kEDR2OL8",
+                    "thumb": "https://static.tvtropes.org/pmwiki/pub/images/superman_5.png",
                     "price": "$3.99",
                     "series": "Batman/Superman",
                     "type": "comic book"
                 },
                 {
-                    "thumb": "https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2020/09/BMSMANN_01_300-001_HD_5f5ff17fa1d665.74704970.jpg?itok=azz5sfGk",
+                    "thumb": "https://content1.jdmagicbox.com/comp/jd_social/news/2018jul06/image-1881-d78cee.jpg?fit=around|210:308&crop=210:308;*,*",
                     "price": "$4.99",
                     "series": "Batman/Superman Annual",
                     "type": "comic book"
                 },
                 {
-                    "thumb": "https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2020/09/BMTJWZ_01_300-001_HD_5f5ff2307dcb37.34652945.jpg?itok=VswVjLR8",
+                    "thumb": "https://static.posters.cz/image/750webp/73582.webp",
                     "price": "$5.99",
                     "series": "Batman: The Joker War Zone",
                     "type": "comic book"
                 },
                 {
-                    "thumb": "https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2020/08/cover-v2_5f40314645a734.37285065.png?itok=ImNM2QBY",
+                    "thumb": "https://i0.wp.com/www.lideachetimanca.com/wp-content/uploads/2020/07/5050574339056.jpg?resize=300%2C460&ssl=1",
                     "price": "$6.99",
                     "series": "Batman: Three Jokers",
                     "type": "comic book"
                 },
                 {
-                    "thumb": "https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2020/10/BMWK_HQ_01_300-001_HD_5f7cb4945e13f6.89501032.jpg?itok=sVwALbUX",
+                    "thumb": "https://i0.wp.com/www.lideachetimanca.com/wp-content/uploads/2020/07/5050574341486.jpg?fit=350%2C528&ssl=1",
                     "price": "$4.99",
                     "series": "Batman: White Knight Presents: Harley Quinn",
                     "type": "comic book"
                 },
                 {
-                    "thumb": "https://picsum.photos/200/300",
+                    "thumb": "https://www.panini.it/media/catalog/product/cache/a5b5dd3adfe0d321084804c738f29601/m/1/m1anni001isbn_0.jpg",
                     "price": "$16.99",
                     "series": "Catwoman",
                     "type": "graphic novel"
