@@ -43,7 +43,6 @@ body {
   box-sizing: border-box;
 }
 
-
 ul,
 li {
   list-style-type: none;

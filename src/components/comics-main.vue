@@ -10,6 +10,9 @@ export default {
 
 <template>
     <main>
+        <figure>
+            <img class="bg-cartoon" src="/vue-dc-comics-1/img/jumbotron.jpg" alt="">
+        </figure>
         <div class="comics-bg-black">
             <div class="container">
                 <div>
@@ -48,7 +51,13 @@ export default {
     </main>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
+.bg-cartoon {
+    aspect-ratio: 18/4;
+    object-fit: cover;
+    object-position: top;
+}
+
 .comics-bg-black {
     background-color: black;
 }

@@ -78,7 +78,7 @@ export default {
     </footer>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .foot-size,
 .foot-social {
     z-index: 5;
