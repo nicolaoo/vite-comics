@@ -35,6 +35,8 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use '../style/partials/variables.scss' as *;
+
 .header {
     position: relative;
 }
@@ -55,15 +57,15 @@ export default {
     display: flex;
 
     .active {
-        color: rgb(15, 124, 197);
+        color: $azure;
 
         &::after {
             content: '';
             display: block;
             width: 40px;
             height: 5px;
-            color: rgb(15, 124, 197);
-            background-color: rgb(15, 124, 197);
+            color: $azure;
+            background-color: $azure;
             position: absolute;
             bottom: 0;
 
@@ -76,22 +78,22 @@ export default {
 
 .item-nav {
     padding: 0 10px;
-    color: rgb(63, 63, 63);
+    color: $grey-footer;
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 600;
 
     &:hover {
-        color: rgb(15, 124, 197);
+        color: $azure;
 
         &::after {
             opacity: 0.9;
-            color: rgb(15, 124, 197);
+            color: $azure;
             content: '';
             display: block;
             width: 40px;
             height: 5px;
-            background-color: rgb(15, 124, 197);
+            background-color: $azure;
             position: absolute;
             bottom: 0;
         }

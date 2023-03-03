@@ -79,6 +79,8 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use '../style/partials/variables.scss' as *;
+
 .foot-size,
 .foot-social {
     z-index: 5;
@@ -99,7 +101,7 @@ export default {
 }
 
 .foot-social {
-    background-color: rgb(63, 63, 63);
+    background-color: $grey-footer;
 }
 
 .link-site {
@@ -143,8 +145,8 @@ export default {
         font-size: 15px;
         text-transform: uppercase;
         padding: 10px;
-        background-color: rgb(63, 63, 63);
-        color: rgb(15, 124, 197);
+        background-color: $grey-footer;
+        color: $azure;
         font-weight: 700;
     }
 
@@ -154,11 +156,11 @@ export default {
 }
 
 .btn-sign {
-    border: 2px solid rgb(15, 124, 197);
+    border: 2px solid $azure;
     font-size: 12px;
     text-transform: uppercase;
     padding: 10px;
-    background-color: rgb(63, 63, 63);
+    background-color: $grey-footer;
     color: white;
     font-weight: 600;
 }

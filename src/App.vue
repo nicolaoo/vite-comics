@@ -21,34 +21,5 @@ export default {
 </template>
 
 <style lang="scss">
-html {
-  font-family: 'Open Sans', sans-serif;
-}
-
-body {
-  height: 100vh;
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
-.container {
-  margin: 0 auto;
-  max-width: 900px;
-
-}
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-ul,
-li {
-  list-style-type: none;
-}
-
-img {
-  max-width: 100%;
-}
+@use './style/general.scss'
 </style>

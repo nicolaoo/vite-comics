@@ -127,6 +127,8 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use '../style/partials/variables.scss' as *;
+
 .bg-cartoon {
     aspect-ratio: 18/4;
     object-fit: cover;
@@ -138,12 +140,10 @@ export default {
 }
 
 .comics-bg-blue {
-    background-color: rgb(15, 124, 197);
+    background-color: $azure;
     position: relative;
     z-index: 7;
 }
-
-
 
 .grid {
     display: grid;
