@@ -90,11 +90,18 @@ export default {
         <figure>
             <img class="bg-cartoon" src="/vue-dc-comics-1/img/jumbotron.jpg" alt="">
         </figure>
+
         <div class="comics-bg-black">
             <div class="container">
+                <button class="btn-first-vignet">
+                    load more
+                </button>
                 <div class="grid">
                     <vignette v-for="(el, i) in heroCard" :key="i" :src="el.thumb" :text="el.series" />
                 </div>
+                <button class="btn-second-vignet">
+                    load more
+                </button>
             </div>
         </div>
         <div class="comics-bg-blue">
@@ -129,6 +136,10 @@ export default {
 <style lang="scss" scoped>
 @use '../style/partials/variables.scss' as *;
 
+.container {
+    text-align: center;
+}
+
 .bg-cartoon {
     aspect-ratio: 18/4;
     object-fit: cover;
@@ -149,21 +160,28 @@ export default {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     gap: 20px;
-    padding: 20px 0;
+    padding: 30px;
 }
 
 .reidirector {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 20px;
     color: white;
+    padding: 20px;
+
+    .col:hover {
+        background-color: rgb(255, 255, 255, 0.2);
+
+        border-radius: 10px;
+    }
 
     .col {
         display: flex;
         gap: 10px;
         justify-content: center;
         align-items: center;
+        padding: 10px;
 
         img {
             width: 30px;
@@ -176,5 +194,27 @@ export default {
             font-size: 10px;
         }
     }
+}
+
+.btn-second-vignet {
+    margin-bottom: 15px;
+    padding: 7px 45px;
+    background-color: $azure;
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.btn-first-vignet {
+    padding: 7px 45px;
+    background-color: rgb(2, 130, 249);
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    position: absolute;
+    top: 60%;
+    left: 16%;
 }
 </style>

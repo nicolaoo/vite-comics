@@ -163,5 +163,9 @@ export default {
     background-color: $grey-footer;
     color: white;
     font-weight: 600;
+
+    &:hover {
+        opacity: 0.5;
+    }
 }
 </style>
